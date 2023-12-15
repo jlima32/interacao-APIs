@@ -1,3 +1,4 @@
+//GET
 document.querySelector('#carregar').addEventListener('click', () => {
     
     fetch('http://localhost:3000/produtos')
@@ -15,3 +16,4 @@ document.querySelector('#carregar').addEventListener('click', () => {
         });
     })
 });    
+
