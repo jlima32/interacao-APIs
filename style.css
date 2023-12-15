@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-size: 12px;
+    font-family: 'verdana';
+}
+
+button{
+    background-color: #eee;
+    padding: 15px;
+    border: 1px solid #888;
+    margin: 25px 0;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: .4px;
+}
+
+button:hover{
+    background-color: #ccc;
+}
