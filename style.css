@@ -18,3 +18,12 @@ button{
 button:hover{
     background-color: #ccc;
 }
+
+li:last-child {
+    border-bottom: solid 1px #ccc;
+    width: 200px;
+}
+
+li {
+    padding: 10px;
+}

@@ -2,15 +2,13 @@
   "produtos": [
     {
       "id": 1,
-      "nome": "Retrovisor"
-    },
-    {
-      "id": 2,
-      "nome": "Calota"
+      "nome": "Retrovisor Direito",
+      "tipo": "Acessório"
     },
     {
       "id": 34,
-      "nome": "Volante"
+      "nome": "Mola de Suspensão",
+      "tipo": "Suspensão"
     },
     {
       "id": 35,
@@ -39,6 +37,25 @@
     {
       "id": 41,
       "nome": "kaskd"
+    },
+    {
+      "id": 42,
+      "nome": "saudhaushduasd"
+    },
+    {
+      "id": 43,
+      "nome": "ad",
+      "tipo": "Controle"
+    },
+    {
+      "id": 44,
+      "nome": "Alavanca do Câmbio",
+      "tipo": "Controle"
+    },
+    {
+      "id": 45,
+      "nome": "Buzina",
+      "tipo": "Controle"
     }
   ],
   "clientes": [

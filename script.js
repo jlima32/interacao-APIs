@@ -1,6 +1,5 @@
 //GET
-document.querySelector('#carregar').addEventListener('click', () => {
-    
+function buscaProdutos() {    
     fetch('http://localhost:3000/produtos')
     .then((response) => response.json())
     .then((produtos) => {
@@ -12,8 +11,9 @@ document.querySelector('#carregar').addEventListener('click', () => {
         documentProdutos.append(tituloProdutos);
 
         produtos.forEach(produto => {
-            documentProdutos.innerHTML += `<ul><li>ID: ${produto.id}</li><li>NOME: ${produto.nome}</li></ul>`; 
+            documentProdutos.innerHTML += `<ul><li>ID: ${produto.id}</li><li>NOME: ${produto.nome}</li><li>TIPO: ${produto.tipo}</li></ul>`; 
         });
     })
-});    
+};    
 
+buscaProdutos();
