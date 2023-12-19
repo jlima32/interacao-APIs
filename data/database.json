@@ -2,50 +2,13 @@
   "produtos": [
     {
       "id": 1,
-      "nome": "Retrovisor Direito",
-      "tipo": "Acessório"
-    },
-    {
-      "id": 34,
-      "nome": "Mola de Suspensão",
-      "tipo": "Suspensão"
+      "nome": "Retrovisor Direita",
+      "tipo": "Categoria"
     },
     {
       "id": 35,
-      "nome": "Farol"
-    },
-    {
-      "id": 36,
-      "nome": "Teste"
-    },
-    {
-      "id": 37,
-      "nome": "Teste"
-    },
-    {
-      "id": 38,
-      "nome": "Teste"
-    },
-    {
-      "id": 39,
-      "nome": "ok"
-    },
-    {
-      "id": 40,
-      "nome": "nada"
-    },
-    {
-      "id": 41,
-      "nome": "kaskd"
-    },
-    {
-      "id": 42,
-      "nome": "saudhaushduasd"
-    },
-    {
-      "id": 43,
-      "nome": "ad",
-      "tipo": "Controle"
+      "nome": "Lanterna Freio",
+      "tipo": "Categoria"
     },
     {
       "id": 44,
@@ -56,6 +19,11 @@
       "id": 45,
       "nome": "Buzina",
       "tipo": "Controle"
+    },
+    {
+      "id": 46,
+      "nome": "Banco",
+      "tipo": "Acessório"
     }
   ],
   "clientes": [

@@ -5,19 +5,6 @@
     font-family: 'verdana';
 }
 
-button{
-    background-color: #eee;
-    padding: 15px;
-    border: 1px solid #888;
-    margin: 25px 0;
-    cursor: pointer;
-    font-weight: 500;
-    letter-spacing: .4px;
-}
-
-button:hover{
-    background-color: #ccc;
-}
 
 li:last-child {
     border-bottom: solid 1px #ccc;
@@ -26,4 +13,32 @@ li:last-child {
 
 li {
     padding: 10px;
+}
+
+input, select, button{
+    width: 95vw;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    background-color: #f4f2f2;
+    border: 1px solid #ccc;
+    
+}
+label{
+    margin: 0 20px;
+}
+
+input:focus, select:focus{
+    outline: none;
+    background-color: #d7d5d5;
+}
+
+button{
+    cursor: pointer;
+    background-color: #4040a4;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #6666b3;
 }
