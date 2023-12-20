@@ -7,7 +7,7 @@
     },
     {
       "id": 35,
-      "nome": "Lanterna Freio",
+      "nome": "Lanterna",
       "tipo": "Categoria"
     },
     {
@@ -24,6 +24,16 @@
       "id": 46,
       "nome": "Banco",
       "tipo": "Acessório"
+    },
+    {
+      "id": 47,
+      "nome": "alterado",
+      "tipo": "Categoria"
+    },
+    {
+      "id": 48,
+      "nome": "Lanterna",
+      "tipo": "Controle"
     }
   ],
   "clientes": [

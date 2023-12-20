@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação com APIs | UPDATE com PUT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>UPDATE com PUT✔</h1>
+    <a href="./index.html">Home</a>
+    <br><br>
+
+    
+    <button type="button" id="novoProduto">
+        Novo Produto
+    </button>
+    <div id="produtos">
+        <h2>Produtos</h2>
+    </div>
+
+    <div id="overlay" class="oculto">
+
+    </div>
+
+    <div id="modalCreate" class="modal oculto">
+        <!-- Formulário CREATE -->
+    <h3>Formulário de Cadastro</h3>
+    <form action="" method="post">
+
+        <div class="controle-form">
+            <label for="nomeProduto">Nome: </label>
+            <input type="text" id="nomeProduto" name="nomeProduto">
+        </div>
+
+        <div class="controle-form">
+
+            
+            <label for="tipoProduto">Tipo: </label>
+            <select name="tipoProduto" id="tipoProduto">
+                <option value="Controle" selected>Controle</option>
+                <option value="Suspensão">Suspensão</option>
+                <option value="Categoria">Carroceria</option>
+                <option value="Acessório">Acessório</option>
+            </select>
+        </div>
+
+        <button type="button" id="cadastrar"> Cadastrar </button>
+        <button type="reset" id="cancelarCreate"> Cancelar </button>
+    </form>
+    </div>
+
+    <div id="modalUpdate" class="modal">
+            
+        <!-- Formulário UPDATE -->
+        <h3>Formulário de Atualização</h3>
+        <form action="" method="post">
+
+            <div class="controle-form">
+                <label for="idProduto">ID: </label>
+                <input type="number" id="idProduto" min="1" name="idProduto" required>
+            </div>
+
+            <div class="controle-form">
+                <label for="nomeProduto">Nome: </label>
+                <input type="text" id="nomeProduto" name="nomeProduto" required>
+            </div>
+
+            <div class="controle-form">
+                <label for="tipoProduto">Tipo: </label>
+                <select name="tipoProduto" id="tipoProduto">
+                    <option value="Controle" selected>Controle</option>
+                    <option value="Suspensão">Suspensão</option>
+                    <option value="Carroceria">Carroceria</option>
+                    <option value="Acessório">Acessório</option>
+                </select>
+            </div>
+
+            <button type="button" id="atualizar"> Atualizar </button>
+            <input type="hidden" id="cadastrar">
+        </form>
+    </div>
+
+    <script src="scriptPost.js"></script>
+</body>
+</html>

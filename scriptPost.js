@@ -109,7 +109,10 @@ document.querySelector('#atualizar').addEventListener('click', () => {
     
 })
 
-
+document.querySelector('#novoProduto').addEventListener('click', () => {
+    document.querySelector('#overlay').classList.toggle('oculto');
+    document.querySelector('#modalCreate').classList.toggle('oculto');
+})
 
 //PUT
 
